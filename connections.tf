@@ -1,11 +1,11 @@
 provider "google" {
-    credentials = file("../sandboxgcloud-ee769fb87f9e.json")
-    project = "sandboxgcloud"
-    region = "us-west1"
+  credentials = file("../sandboxgcloud-ee769fb87f9e.json")
+  project     = "sandboxgcloud"
+  region      = "us-west1"
 }
 
 provider "aws" {
-    region = "us-west-2"
+  region = "us-west-2"
 }
 
 #AZURE
